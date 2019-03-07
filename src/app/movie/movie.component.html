@@ -1,0 +1,39 @@
+    <!-- <h1>Movie's details:</h1>
+    <div><span>Id:  </span>{{movie.id}}</div>
+    <div><span>Name:  </span>{{movie.name}}</div>
+    <div><span>Year:  </span>{{movie.releaseYear}}</div>
+    <h2>Edit your information:</h2>
+    <div>
+        <label>Movie name:
+            <input type="text" [ngModel]="movie.name" placeholder="Enter movie's name">
+        </label>
+    </div>
+    <div>
+        <label>Release year:
+            <input type="text" [(ngModel)]="movie.releaseYear" placeholder="Enter movie's name">
+        </label>
+    </div> -->
+    <h2>My favorite movies</h2>
+    <div class="parent">
+    <ol class="movies">
+        <li class="movieListItem" *ngFor="let eachMovie of movies">
+        <a routerLink="/detail/{{eachMovie.id}}" style="text-decoration: none;">
+            {{eachMovie.name}} - {{eachMovie.releaseYear}}
+        </a>
+        </li>
+    </ol>
+    <!-- <app-movie-detail [movie]="selectedMovie"></app-movie-detail> -->
+    <!-- <div *ngIf="selectedMovie" class="detail">
+            <h3>You select: {{selectedMovie.name}}. Detail:</h3>
+            <table style="width: 100%">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" placeholder="Name" [(ngModel)]="selectedMovie.name"></td>
+                </tr>
+                <tr>
+                    <td>Release year:</td>
+                    <td><input type="text" placeholder="Name" [(ngModel)]="selectedMovie.releaseYear"></td>
+                </tr>
+            </table>
+        </div> -->
+    </div>
