@@ -1,0 +1,64 @@
+{
+  "movies": [
+    {
+      "name": "Tada",
+      "releaseYear": "2001",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Sunflower ",
+      "releaseYear": "1980rểw"
+    },
+    {
+      "id": 3,
+      "name": "Thank U, Next",
+      "releaseYear": "1970 sạlf"
+    },
+    {
+      "id": 4,
+      "name": "Please Me",
+      "releaseYear": "1960 2"
+    },
+    {
+      "id": 5,
+      "name": "123",
+      "releaseYear": 1950
+    },
+    {
+      "id": 6,
+      "name": "Sicko Mode",
+      "releaseYear": 1940
+    },
+    {
+      "id": 7,
+      "name": "Break Up",
+      "releaseYear": 1930
+    },
+    {
+      "name": "Sakura",
+      "releaseYear": 2003,
+      "id": 8
+    },
+    {
+      "name": "sda",
+      "releaseYear": 12312,
+      "id": 9
+    },
+    {
+      "name": "Good bye my love",
+      "releaseYear": "1992",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
